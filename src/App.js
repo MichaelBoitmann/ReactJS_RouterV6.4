@@ -1,6 +1,5 @@
 import { 
   createBrowserRouter,
-  Routes,
   Route,
   createRoutesFromElements,
   RouterProvider
@@ -8,8 +7,11 @@ import {
 
 import Home from './pages/Home'
 import About from './pages/About'
+import Faq from './pages/help/Faq'
+import Contact from './pages/help/Contact'
 
 import RootLayout from './layouts/RootLayout'
+import HelpLayout from './layouts/HelpLayout'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -17,8 +19,8 @@ const router = createBrowserRouter(
       <Route index element={<Home />} />
       <Route path="about" element={<About />} />
       <Route path="help" element={<HelpLayout />}>
-        <Route path="faq" /> /**same as /help/faq */
-        <Route path="contact" /> /**same as /help/contact */
+        <Route path="faq" element={<Faq />} /> /**same as /help/faq */
+        <Route path="contact" element={<Contact />}/> /**same as /help/contact */
       </Route>
     </Route>
   ))

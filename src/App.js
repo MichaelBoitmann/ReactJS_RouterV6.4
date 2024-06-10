@@ -8,7 +8,7 @@ function App() {
     <BrowserRouter>
       <header>
         <nav>
-          <h1>BoitmannRouter</h1>
+          <h1>RouterMann</h1>
           <NavLink to="/">Home</NavLink>
           <NavLink to="about">About</NavLink>
         </nav>

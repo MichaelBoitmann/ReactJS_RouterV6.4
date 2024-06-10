@@ -1,8 +1,8 @@
 import { NavLink, Outlet } from "react-router-dom"
 
-export default function RootLayout = () => {
+export default function RootLayout() {
   return (
-    <div>
+    <div className="root-layout">
       <header>
         <nav>
           <h1>RouterMann</h1>

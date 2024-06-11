@@ -33,6 +33,10 @@ const router = createBrowserRouter(
           element={<Careers />} 
           loader={careersLoader}
         />
+        <Route 
+          path=":id"
+          elements={}
+        />
       </Route>
 
       <Route path="*" element={<NotFound />} />

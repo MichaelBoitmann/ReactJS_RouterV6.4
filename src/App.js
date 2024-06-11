@@ -12,16 +12,25 @@ import Contact from './pages/help/Contact'
 
 import RootLayout from './layouts/RootLayout'
 import HelpLayout from './layouts/HelpLayout'
+import NotFound from './pages/NotFound'
+import CareersLayout from './layouts/CareersLayout'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RootLayout />}>
       <Route index element={<Home />} />
       <Route path="about" element={<About />} />
+
       <Route path="help" element={<HelpLayout />}>
         <Route path="faq" element={<Faq />} /> /**same as /help/faq */
         <Route path="contact" element={<Contact />}/> /**same as /help/contact */
       </Route>
+
+      <Route path="careers" element={<CareersLayout />}>
+        <Route index element={<CareersLayout />} />
+      </Route>
+
+      <Route path="*" element={<NotFound />} />
     </Route>
   ))
 

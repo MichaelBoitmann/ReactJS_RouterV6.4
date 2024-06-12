@@ -6,7 +6,7 @@ export default function CareerDetails() {
 
   return (
     <div className='career-details'>
-      <h2>{ id }</h2>
+      <h2>Career Details for {career.title}</h2>
 
     </div>
   )

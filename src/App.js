@@ -40,6 +40,7 @@ const router = createBrowserRouter(
         <Route 
           path=":id"
           elements={<CareerDetails />}
+          loader={careerDetailsLoader}
         />
       </Route>
 

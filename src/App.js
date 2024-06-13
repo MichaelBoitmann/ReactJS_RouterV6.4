@@ -1,7 +1,7 @@
 import { 
   createBrowserRouter,
-  Route,
   createRoutesFromElements,
+  Route,
   RouterProvider
 } from 'react-router-dom'
 
@@ -27,8 +27,8 @@ const router = createBrowserRouter(
       <Route path="about" element={<About />} />
 
       <Route path="help" element={<HelpLayout />}>
-        <Route path="faq" element={<Faq />} /> /**same as /help/faq */
-        <Route path="contact" element={<Contact />}/> /**same as /help/contact */
+        <Route path="faq" element={<Faq />} /> 
+        <Route path="contact" element={<Contact />}/>
       </Route>
 
       <Route path="careers" element={<CareersLayout />} errorEle>

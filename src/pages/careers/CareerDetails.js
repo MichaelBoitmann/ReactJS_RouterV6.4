@@ -9,7 +9,7 @@ export default function CareerDetails() {
       <h2>Career Details for {career.title}</h2>
       <p>Starting salary: {career.salary}</p>
       <p>Location: {career.location}</p>
-      <div className='detils'> </div>
+      <div className='details'> </div>
         <p>Lorem ipsum dolor site, amet....</p>
     </div>
   )

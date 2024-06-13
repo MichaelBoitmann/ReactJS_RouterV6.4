@@ -31,7 +31,7 @@ const router = createBrowserRouter(
         <Route path="contact" element={<Contact />}/>
       </Route>
 
-      <Route path="careers" element={<CareersLayout />} errorEle>
+      <Route path="careers" element={<CareersLayout />}>
         <Route 
           index 
           element={<Careers />} 
@@ -39,7 +39,7 @@ const router = createBrowserRouter(
         />
         <Route 
           path=":id"
-          elements={<CareerDetails />}
+          element={<CareerDetails />}
           loader={careerDetailsLoader}
         />
       </Route>

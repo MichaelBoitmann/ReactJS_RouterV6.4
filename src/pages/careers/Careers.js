@@ -8,7 +8,7 @@ export default function Careers() {
       {careers.map(career => (
         <Link to={career.id.toString()} key={career.id}>
           <p>{career.title}</p>
-          <p>NZ${career.salary} / Based in {career.location}</p>
+          <p>Based in {career.location}</p>
         </Link>
       ))}
     </div>

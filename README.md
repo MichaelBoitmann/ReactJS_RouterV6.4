@@ -11,6 +11,14 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+In Git Bash terminal under your ongoing project folder, run the following
+to run the database of your project
+
+### `json-server -p 4000 -w ./data/db.json`
+
+Runs the database 'db.json' while running your front page while running the 'npm start'
+in separate terminal
+
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 

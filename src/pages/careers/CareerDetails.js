@@ -16,6 +16,8 @@ export default function CareerDetails() {
           <li>Requirements 2</li>
           <li>Requirements 3</li>
           <li>Requirements 4</li>
+          <li>Requirements 5</li>
+          <li>Requirements 6</li>
         </ul></p>
       </div>
     </div>

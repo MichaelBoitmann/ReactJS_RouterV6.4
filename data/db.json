@@ -3,8 +3,9 @@
     {
       "id": 1,
       "title": "Senior React Developer",
-      "salary": 50000,
-      "location": "London, UK"
+      "salary": 120000,
+      "location": "London UK",
+      "description": "This position offers a unique opportunity to progress your development skills and assist with mentorship of the team utilizing the latest software tools and technologies. It's an excellent choice to continue your career growth within an innovative and supportive company."
     },
     {
       "id": 2,

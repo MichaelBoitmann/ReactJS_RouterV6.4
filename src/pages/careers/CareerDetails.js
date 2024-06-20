@@ -7,20 +7,18 @@ export default function CareerDetails() {
   return (
     <div className='career-details'>
       <h2>Career Details for {career.title}</h2>
-      <p>Starting salary: {career.salary}</p>
+      <p>Starting salary: ${career.salary}</p>
       <p>Location: {career.location}</p>
       <div className='details'>
-      <p>Lorem ipsum dolor sit amet consectetur <br />
-      adipisicing elit. A architecto ea reprehenderit <br />
-      minus officia minima labore similique dolores aperiam <br />
-      pariatur aliquid doloribus laboriosam error magnam <br />
-      beatae, ducimus voluptatem facere illo.
-      <ul>
-        <li>aliquid</li>
-        <li>aliquid</li>
-        <li>aliquid</li>
-        <li>aliquid</li>
-      </ul></p>
+        <p>Description: {career.description}
+        <ul>
+          <li>Requirements 1</li>
+          <li>Requirements 2</li>
+          <li>Requirements 3</li>
+          <li>Requirements 4</li>
+          <li>Requirements 5</li>
+          <li>Requirements 6</li>
+        </ul></p>
       </div>
     </div>
   )

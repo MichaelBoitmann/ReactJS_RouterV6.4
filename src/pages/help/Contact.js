@@ -1,6 +1,8 @@
-import { Form, redirect, userActionData } from "react-router-dom"
+import { Form, redirect, useActionData } from "react-router-dom"
 
 export default function Contact() {
+  const data = useActionData()
+
   return (
     <div className="contact">
       <h3>Contact Us</h3>
@@ -19,7 +21,7 @@ export default function Contact() {
   )
 }
 
-export const contactAction = async ({ request } => {
+export const contactAction = async ({ request }) => {
   console.log(request);
 
   const data = await request.formData()
@@ -30,4 +32,4 @@ export const contactAction = async ({ request } => {
   }
 
   console.log(submission)
-})
+}

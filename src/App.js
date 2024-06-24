@@ -14,12 +14,12 @@ import Contact, { contactAction } from './pages/help/Contact'
 import NotFound from './pages/NotFound'
 import Careers, { careersLoader } from './pages/careers/Careers'
 import CareerDetails, { careerDetailsLoader } from './pages/careers/CareerDetails'
+import CareerError from './pages/careers/CareerError'
 
 //layouts
 import RootLayout from './layouts/RootLayout'
 import HelpLayout from './layouts/HelpLayout'
 import CareersLayout from './layouts/CareersLayout'
-import CareerError from './pages/careers/CareerError'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
